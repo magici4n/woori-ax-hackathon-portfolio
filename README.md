@@ -6,6 +6,8 @@
 
 해외주식 투자자가 계속 보유할 종목과 매도 한도를 챗봇에 알려주면, 그 조건을 지키는 매도 조합별로 예상 양도소득세와 남는 자산을 비교해 주는 서비스입니다.
 
+[해커톤 프로젝트 소스 코드 보기 (GitHub)](https://github.com/magici4n/woori-ax-hackathon)
+
 ### 개발 배경
 
 올해 예상 세금을 확인한 투자자에게는 다음 질문이 남습니다. “테슬라는 계속 보유하고 싶은데, 다른 종목만 일부 팔면 결과가 어떻게 달라질까?” 이 질문에 답하려면 여러 계좌의 손익을 합산하고, 투자자가 정한 조건에 따라 매도 수량과 세금을 다시 계산해야 합니다. 팀은 보유 의사를 대화로 입력하고 매도 전후의 차이를 확인하는 흐름을 만들었습니다.
@@ -53,4 +55,4 @@
 
 가상 계좌로 로컬 시연까지 구현했습니다. 배포·실사용자 검증·성능 측정은 진행하지 않았습니다. 다음 과제는 같은 대화에서 제외, 해제, 수량 한도 변경을 연속으로 요청하고, 최종 시나리오의 매도 수량이 마지막으로 확정한 조건을 지키는지 검증하는 것입니다.
 
-[팀 프로젝트 저장소](https://github.com/magici4n/woori-ax-hackathon) · [실행 방법](https://github.com/magici4n/woori-ax-hackathon/blob/main/README.md) · [시연 순서](https://github.com/magici4n/woori-ax-hackathon/blob/main/docs/DEMO.md)
+[실행 방법](https://github.com/magici4n/woori-ax-hackathon/blob/main/README.md) · [시연 순서](https://github.com/magici4n/woori-ax-hackathon/blob/main/docs/DEMO.md)
